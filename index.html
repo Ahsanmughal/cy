@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CYNAX - Holding</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alice" rel="stylesheet">
+    <link href="fonts/aileron.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/plugins.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body class="" data-spy="scroll" data-target="#navbar-nav">
+
+    <!-- =========== Preloader Start ============ -->
+    <div class="preloader-main">
+        <div class="preloader-wapper">
+            <svg class="preloader" xmlns="http://www.w3.org/2000/svg" version="1.1" width="600" height="200">
+                <defs>
+                    <filter id="goo" x="-40%" y="-40%" height="200%" width="400%">
+                        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -8" result="goo" />
+                    </filter>
+                </defs>
+                <g filter="url(#goo)">
+                    <circle class="dot bg-fill-black " cx="50" cy="50" r="25" />
+                    <circle class="dot bg-fill-black" cx="50" cy="50" r="25" />
+                </g>
+            </svg>
+            <div>
+                <div class="loader-section section-left"></div>
+                <div class="loader-section section-right"></div>
+            </div>
+        </div>
+    </div>
+    <!-- =========== Preloader End ============ -->
+    <div class="main">
+        <!-- =========== Start of Navigation (main menu) ============ -->
+        <header class="navbar navbar-sticky navbar-expand-lg navbar-dark">
+            <div class="container position-relative">
+                <a class="navbar-brand mr-70" href="./index.html">
+                    <img class="navbar-brand__regular" style="max-width: 50px" src="./cynax-img/logo.png" alt="brand-logo">
+                    <img class="navbar-brand__sticky" style="max-width: 50px" src="./cynax-img/black-logo.png" alt="sticky brand-logo">
+                </a>
+                <!--  End of brand logo -->
+                <button class="navbar-toggler d-lg-none" type="button" data-toggle="navbarToggler" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- end of Nav toggler -->
+
+                <div class="navbar-inner">
+                    <!--  Nav close button inside off-canvas/ mobile menu -->
+                    <button class="navbar-toggler d-lg-none" type="button" data-toggle="navbarToggler" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- end of Nav Toggoler -->
+                    <nav>
+                         <ul class="navbar-nav" id="navbar-nav">
+                             <li class="nav-item">
+                                <a class="nav-link" href="./index.html">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="javascript:;" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Products
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li>
+                                        <a class="dropdown-item" href="./cynax-aipod.html">AiPOD</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">BAiT</a>
+                                    </li>
+                                </ul>
+                            </li>
+                             <li class="nav-item">
+                                <a class="nav-link" href="./cynax-contact.html">Contact Us</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- <div class="flex-row ml-lg-auto d-md-flex mr-70 mr-lg-0 d-none d-sm-inline-block">
+                    <a href="#" class="btn btn--outline btn--sm btn-3d-hover btn-splash-hover">
+                        <span class="btn__text">Get started now</span> 
+                    </a>
+                </div> -->
+                <!-- end of nav cta button -->
+            </div>
+            <!-- end of container -->
+        </header>
+        <!-- =========== End of Navigation (main menu)  ============ -->
+
+        <!-- =========== Start of Hero ============ -->
+        <section class="space--lg hero hero--dark">
+            <!-- <div id="video_overlays"></div> -->
+            <div class="background-holder z-index-1">
+                <video  autoplay="" muted="" loop="" id="myVideo">
+                    <source src="./cynax-img/bk.mp4" type="video/mp4">
+                </video>
+                <!-- <img src="img/hero-10.png" alt="hero-image" class="background-image-holder"> -->
+            </div>
+            <!-- end background image -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-10 col-xl-8 mx-auto">
+                        <div class="d-lg-flex align-items-lg-center position-relative text-center mb-100">
+                            <div class="hero-content hero-content--center mx-auto">
+                                <h1 class="hero__title"><b style="color: #ab2126;">CYNAX</b> is using artificial intelligence and machine learning to improve the intelligence, surveillance, and reconnaissance capabilities.</h1>
+                                <p class="lead hero__description">The approach is synthesizing reams of data into actionable intelligence and accurate targeting information at speed and scale, in high-risk environments.</p>
+
+                                <div class="button-group align-items-center flex-column flex-sm-row justify-content-sm-center">
+                                    <a href="#" class="btn btn--md btn--bg-yellow btn-3d-hover btn-splash-hover mr-lg-2 mb-3 mb-sm-0 mr-0 mr-sm-3">Get started, It’s free</a>
+
+                                    <a class="lightbox ml-0 ml-sm-3 d-flex align-items-center" data-autoplay="true" data-vbtype="video" href="https://vimeo.com/367423943">
+                                        <span class="media-player-icon media-player-icon--xs media-player-icon--outline-white mr-10">
+                                            <i class="icon icon-triangle-right-17"></i>
+                                        </span>
+                                        <span class="btn__text h6-font color-white font-w-400">Watch our video</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="hero__shape">
+                <img src="img/hero-10-wave.svg" alt="hero bg" class="svg">
+            </div>
+        </section>
+
+
+        <section class="space">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-6 mb-40 mb-lg-0 reveal">
+                        <picture>
+                            <img src="https://static.wixstatic.com/media/b1a812_69c6ed20b22345859d76ca0303614202~mv2_d_1980_1580_s_2.png/v1/fill/w_831,h_663,al_c,usm_0.66_1.00_0.01,enc_auto/lap.png" alt="build">
+                        </picture>
+                    </div>
+                    <div class="col-12 col-lg-5 ml-auto reveal">
+                        <h3 class="mb-30">About Us</h3>
+                        <p class="mb-30">We are a company dedicated to harnessing technology to develop sovereign defense capabilities and advancing the vital national interests of the United Arab Emirates.</p>
+                        <p class="mb-30">Through the supply of innovative products and services, we aim to revolutionize military test and evaluation, enhance military training and secure critical national infrastructure.</p>
+                        <a href="#" class="btn btn--underline btn--color-primary btn-text-hover">
+                            <span class="btn__text">Try CYNAX now</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="space-top--md bg-color-grey">
+            <div class="overlap overlap--white z-index1"></div>
+            <div class="background-holder background-holder--auto background-holder--bottom">
+                <img src="img/bg-diagonal-lines.png" alt="pattern" class="background-image-holder">
+            </div>
+            <div class="container ">
+                <div class="row">
+                    <div class="col-12 col-lg-6 mx-auto">
+                        <div class="section-title reveal text-center mb-80">
+                            <p class="mb-10 text-uppercase font-w-700">CYNAX makes your life easy</p>
+                            <h3 class="font-w-400">Make your life easy, get a better way to communicate.</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-6 col-lg-5 col-xl-4 z-index2 reveal">
+                        <div class="card text-center mb-30 mb-md-0">
+                            <div class="header pl-40 pr-40 py-5 border-bottom-light">
+                                <!-- <span class="mb-30 icon-rounded position-relative">
+                                    <i class="icon icon-p-heart"></i>
+                                </span> -->
+                                <div style="height: 100px; width: 100px; background-color: #eb1c24; border-radius: 50%; margin: 0 auto; text-align: center;line-height: 6; margin-bottom: 20px;">
+                                    <a href="./cynax-aipod.html">
+                                        <img src="http://cynaxlabs.com/img/AiPOD-logo-1.png"/>
+                                    </a>
+                                </div>
+                                <p class="mb-40">Now it had seen unable uneasy. Drawings can followed by improved out sociable not.</p>
+                                <a href="#" class="btn btn--transparent btn--arrow-after btn--color-dark btn-border-hover">
+                                    <span class="btn__text mr-30">Find out more</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-5 col-xl-4 z-index2 reveal">
+                        <div class="card text-center mb-30 mb-md-0">
+                            <div class="header pl-40 pr-40 py-5 border-bottom-light">
+                                <!-- <span class="mb-30 icon-rounded position-relative">
+                                    <i class="icon icon-grid-45"></i>
+                                </span> -->
+                                <div style="height: 100px; width: 100px; background-color: #000; border-radius: 50%; margin: 0 auto; text-align: center;line-height: 6; margin-bottom: 20px;">
+                                    <img src="./cynax-img/bait-logo-w.png"/>
+                                </div>
+                                <p class="mb-40">Now it had seen unable uneasy. Drawings can followed by improved out sociable not.</p>
+                                <a href="#" class="btn btn--transparent btn--arrow-after btn--color-dark btn-border-hover">
+                                    <span class="btn__text mr-30">Find out more</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="space testimonial-carousel" id="reviews">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-6 mx-auto">
+                        <div class="section-title reveal text-center mb-80">
+                            <p class="mb-10 text-uppercase font-w-700">5,000+ Teams trust Cynax</p>
+                            <h3 class="font-w-400">People love Cynax. <br> See some of the stories.</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-6 col-xl-5 mt-lg-5 mr-xl-1 mb-50 mb-lg-0 reveal">
+                        <div class="testimonial-content text-center text-lg-left">
+                            <div class="slide">
+                                <blockquote class="blockquote mb-40">
+                                    <h5 class="font-w-300">“Life before was very chaotic — we got a lot of phone calls, a lot of mistyped orders. So with Company, the ability to see the order directly from the customer makes it so streamlined.”</h5>
+                                </blockquote>
+                                <span class="font-size-21 font-w-700 text-uppercase mb-1 color-white">Frank Hardy</span>
+                                <p class="mb-20">Creative Director</p>
+                                <span><img src="img/atlassian.png" alt="atlassian"></span>
+                            </div>
+                            <div class="slide">
+                                <blockquote class="blockquote mb-40">
+                                    <h5 class="font-w-300">“Life before was very chaotic — we got a lot of phone calls, a lot of mistyped orders. So with Company, the ability to see the order directly from the customer makes it so streamlined.” </h5>
+                                </blockquote>
+                                <span class="font-size-21 font-w-700 text-uppercase mb-1 color-white">Frank Hardy</span>
+                                <p class="mb-20">Creative Director</p>
+                                <span><img src="img/atlassian.png" alt="atlassian"></span>
+                            </div>
+                            <div class="slide">
+                                <blockquote class="blockquote mb-40">
+                                    <h5 class="font-w-300">“Life before was very chaotic — we got a lot of phone calls, a lot of mistyped orders. So with Company, the ability to see the order directly from the customer makes it so streamlined.” </h5>
+                                </blockquote>
+                                <span class="font-size-21 font-w-700 text-uppercase mb-1 color-white">Frank Hardy</span>
+                                <p class="mb-20">Creative Director</p>
+                                <span><img src="img/atlassian.png" alt="atlassian"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 col-xl-5 reveal">
+                        <div class="testimonial-image text-center text-lg-left">
+                            <div class="slide">
+                                <picture><img class="rounded-default" src="img/img-client-1.png" alt="client"></picture>
+                            </div>
+                            <div class="slide">
+                                <picture><img class="rounded-default" src="img/img-client-2.png" alt="client"></picture>
+                            </div>
+                            <div class="slide">
+                                <picture><img class="rounded-default" src="img/img-client-3.png" alt="client"></picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <footer class="footer position-relative">
+            <div class="space border-bottom-light">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-4 col-lg-3 mb-20 mb-lg-0">
+                            <span class="mb-20">
+                                <a href="#"><img src="./cynax-img/logo.png" alt="logo"></a>
+                            </span>
+                            <ul class="social-lists d-flex mb-0 mt-30">
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-sm-4 col-lg-3 mb-20 mb-sm-0">
+                            <div class="footer-widget">
+                                <h6 class="mb-20">Company</h6>
+                                <ul>
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Careers</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Press</a></li>
+                                    <li><a href="#">Brand Guidelines</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-4 col-lg-3 mb-20 mb-sm-0">
+                            <div class="footer-widget">
+                                <h6 class="mb-20">Product</h6>
+                                <ul>
+                                    <li><a href="#">Why AiPOD?</a></li>
+                                    <li><a href="#">Enterprise</a></li>
+                                    <li><a href="#">Customer Stories</a></li>
+                                    <li><a href="#">Pricing</a></li>
+                                    <li><a href="#">Security</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-4 col-lg-3 mb-20 mb-sm-0">
+                            <div class="footer-widget">
+                                <h6 class="mb-20">Adress</h6>
+                                <p class="">SkyHub RC, Al Lisaili, Dubai UAE</p>
+
+                                <div class="mt-30 d-flex align-items-start flex-column flex-md-row">
+                                    
+                                    <span class="color-primary mr-20 mt-10 mb-10 mb-md-0"><i class="icon icon-email"></i></span>
+
+                                    <div>
+                                        <h6>Send us an email</h6>
+                                        <a href="mailto:email@cynax.com">
+                                            <p>email@cynax.com</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-color-grey py-4">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 d-md-flex justify-content-between align-items-center">
+                            <nav class="nav">
+                                <ul class="d-flex mb-md-0">
+                                    <li><a href="#">Status</a></li>
+                                    <li><a href="#">Privacy & Terms</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                </ul>
+                            </nav>
+                            <div class="d-flex justify-content-between ml-auto">
+                                <div class="lang-selector mr-30 position-relative">
+                                    <button class="lang-selector__button" type="button">
+                                        <img src="img/flag-usa.png" alt="United States" class="flag-image">
+                                        <span>English</span>
+                                        <i class="fa fa-angle-up"></i>
+                                    </button>
+                                    <ul class="lang-dropdown mb-0">
+                                        <li>
+                                            <a class="lang-dropdown__item d-flex align-items-center" href="#"><img src="img/flag-usa.png"
+                                                    alt="United States" class="flag-image mr-10">English</a>
+                                        </li>
+                                        <li>
+                                            <a class="lang-dropdown__item d-flex align-items-center" href="#"><img src="img/flag-france.png"
+                                                    alt="United States" class="flag-image mr-10">France</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- =========== End of Footer ============ -->
+    </div>
+    <script src="js/plugins.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
