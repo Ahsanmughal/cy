@@ -270,6 +270,34 @@
     }
     featuresSlider2();
 
+
+    function gcs() {
+        $('.multiple-items').slick({
+            infinite: true,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            dots: false,
+            responsive: [
+                {
+                    breakpoint: 500,
+                    settings: {
+                        slidesToShow: 2,
+                    }
+                },
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 3,
+                    }
+                },
+            ],
+            prevArrow: '<button style="position:absolute; top:40%; z-index:1; left:21px;" type="button" class="slick-prev"><i class="icon icon-triangle-left-18"></i></button>',
+            nextArrow: '<button style="position: absolute; right: 18px; bottom: 49%;" type="button" class="slick-next"><i class="icon icon-triangle-right-17"></i></button>',
+        });
+    }
+
+    gcs();
+
     /* ---------------------------------------------
     Pricing data update
     --------------------------------------------- */
