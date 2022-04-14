@@ -419,4 +419,10 @@
         }
     });
 
+    if($("#img1[data-orientation!='vertical']").length != 0) {
+        $("#img1[data-orientation!='vertical']").twentytwenty({default_offset_pct:0.5});
+    }
+    if($("#view360").length != 0 ) {
+        $("#view360").tikslus360({imageDir:'../cynax/profile/rotation',imageCount:16, imageExt:'png',canvasID:'canvas1',canvasWidth:1140,canvasHeight:520,autoRotate:false});
+    }
 })(jQuery);

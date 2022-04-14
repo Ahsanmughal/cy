@@ -4121,6 +4121,7 @@ body[class*="theme-"] .form-subscription .btn {
   position: relative;
   display: inline-block;
 }
+/*
 
 .team-item-img::before {
   content: '';
@@ -4142,7 +4143,7 @@ body[class*="theme-"] .form-subscription .btn {
 .team-item-img .img {
   overflow: hidden;
 }
-.team-item:hover .team-item-img .img img {
+ .team-item:hover .team-item-img .img img {
   -webkit-transition: -webkit-transform 1s;
   transition: -webkit-transform 1s;
   transition: transform 1s;
@@ -4209,7 +4210,7 @@ body[class*="theme-"] .form-subscription .btn {
   color: #fff;
   background-color: transparent;
   transition: background-color .2s linear;
-}
+} */
 .team-item-description {
   margin-top: 17px;
 }
@@ -4335,6 +4336,85 @@ body[class*="theme-"] .form-subscription .btn {
   color: #fff;
   font-size: 1.4rem;
 }
+
+.cxo:hover {
+  background-color: rgb(125, 152, 186);
+  -webkit-transition: background-color 300ms linear;
+  -ms-transition: background-color 300ms linear;
+  transition: background-color 300ms linear;
+}
+.ced:hover {
+  background-color: rgb(217, 182, 163);
+  -webkit-transition: background-color 300ms linear;
+  -ms-transition: background-color 300ms linear;
+  transition: background-color 300ms linear;
+}
+.hps:hover {
+  background-color: rgb(125, 152, 186);
+  -webkit-transition: background-color 300ms linear;
+  -ms-transition: background-color 300ms linear;
+  transition: background-color 300ms linear;
+}
+.hoi:hover {
+  background-color: rgb(204, 143, 143);
+  -webkit-transition: background-color 300ms linear;
+  -ms-transition: background-color 300ms linear;
+  transition: background-color 300ms linear;
+}
+.dad:hover {
+  background-color: rgb(235, 176, 87);
+  -webkit-transition: background-color 300ms linear;
+  -ms-transition: background-color 300ms linear;
+  transition: background-color 300ms linear;
+}
+.lpm:hover {
+  background-color: rgb(153, 199, 204);
+  -webkit-transition: background-color 300ms linear;
+  -ms-transition: background-color 300ms linear;
+  transition: background-color 300ms linear;
+}
+.hca:hover {
+  background-color: rgb(104, 110, 160);
+  -webkit-transition: background-color 300ms linear;
+  -ms-transition: background-color 300ms linear;
+  transition: background-color 300ms linear;
+}
+.cea:hover {
+  background-color: rgb(148, 121, 149);
+  -webkit-transition: background-color 300ms linear;
+  -ms-transition: background-color 300ms linear;
+  transition: background-color 300ms linear;
+}
+.lcs:hover {
+  background-color: rgb(235, 176, 87);
+  -webkit-transition: background-color 300ms linear;
+  -ms-transition: background-color 300ms linear;
+  transition: background-color 300ms linear;
+}
+.hps,.ced, .cxo, .hoi, .dad, .lpm, .hca, .cea, .lcs {
+  background-color: rgb(207, 222, 229);
+}
+.technical .col-12 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 0;
+}
+.technical .name {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -0.14px;
+  width: 50%;
+  text-align: right;
+  margin-right: 25px;
+}
+
+.technical .value {
+  font-size: 16px;
+  letter-spacing: -0.14px;
+  width: 50%;
+}
+
 @media (max-width: 768px) {
   .wt-icon-box-wraper.right {
     text-align: left;

@@ -16,6 +16,27 @@
 </head>
 
 <body class="" data-spy="scroll" data-target="#navbar-nav">
+    <div class="preloader-main">
+        <div class="preloader-wapper">
+            <svg class="preloader" xmlns="http://www.w3.org/2000/svg" version="1.1" width="600" height="200">
+                <defs>
+                    <filter id="goo" x="-40%" y="-40%" height="200%" width="400%">
+                        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -8" result="goo" />
+                    </filter>
+                </defs>
+                <g filter="url(#goo)">
+                    <circle class="dot bg-fill-black " cx="50" cy="50" r="25" />
+                    <circle class="dot bg-fill-black" cx="50" cy="50" r="25" />
+                </g>
+            </svg>
+            <div>
+                <div class="loader-section section-left"></div>
+                <div class="loader-section section-right"></div>
+            </div>
+        </div>
+    </div>
+    
     <div class="main">
         <header class="navbar navbar-sticky navbar-expand-lg navbar-dark">
             <div class="container position-relative">
@@ -37,15 +58,31 @@
                              <li class="nav-item">
                                 <a class="nav-link" href="./index.html">Home</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./cynax-aipod.html">AiPOD</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./cynax-bait.html">BAiT</a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="javascript:;" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    What We Do
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li>
+                                        <a class="dropdown-item" href="./cynax-aipod.html">AiPOD</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="./cynax-bait.html">BAiT</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="./cynax-kungsorn.html">KUNGSÖRN</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="./cynax-aible5.html">AIBLE-5</a>
+                                    </li>
+                                    <!-- <li>
+                                        <a class="dropdown-item" href="./cynax-aible6.html">AIBLE-6</a>
+                                    </li> -->
+                                </ul>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="javascript:;" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Company
+                                    About Us
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 
